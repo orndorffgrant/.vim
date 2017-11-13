@@ -1,0 +1,9 @@
+[submodule "pack/go/start/nerdtree"]
+	path = pack/go/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/go/start/vim-gitgutter"]
+	path = pack/go/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/go/start/youcompleteme"]
+	path = pack/go/start/youcompleteme
+	url = https://github.com/valloric/youcompleteme
