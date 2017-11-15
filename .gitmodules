@@ -10,3 +10,6 @@
 [submodule "pack/go/start/nerdtree-git-plugin"]
 	path = pack/go/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "pack/go/start/vim-tmux-navigator"]
+	path = pack/go/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
