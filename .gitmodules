@@ -13,3 +13,6 @@
 [submodule "pack/go/start/vim-tmux-navigator"]
 	path = pack/go/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "pack/go/start/typescript-vim"]
+	path = pack/go/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
