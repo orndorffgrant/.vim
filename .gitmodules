@@ -16,3 +16,6 @@
 [submodule "pack/go/start/typescript-vim"]
 	path = pack/go/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/go/start/vmux"]
+	path = pack/go/start/vmux
+	url = https://github.com/ivanbrennan/vmux.git
