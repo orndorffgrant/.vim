@@ -54,6 +54,9 @@ if isdirectory($HOME . '/.vim/undo') == 0
 endif
 set undodir=~/.vim/undo//
 
-" Vmux commands
+" Vmux shortcuts
 nnoremap <leader>r :VmuxSendPrimary bottom-left up<enter>
 nnoremap <leader>gs :VmuxSendSecondary bottom-right git space status<enter>
+
+" Ycm shortcuts
+nnoremap <leader>fi :YcmCompleter FixIt<enter>
