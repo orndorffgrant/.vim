@@ -24,6 +24,8 @@ set smartcase
 set number
 set showmode
 set showcmd
+set list
+set listchars=tab:▸\ ,space:·
 
 " Interaction options
 au FocusLost * :wa
