@@ -4,7 +4,6 @@ set nocompatible
 set modelines=0
 
 " Theme
-syntax enable
 set background=dark
 colorscheme Tomorrow-Night
 
@@ -15,17 +14,11 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set smarttab
 
 " Search options
 set ignorecase
 set smartcase
-
-" Display options
-set number
-set showmode
-set showcmd
-set list
-set listchars=tab:▸\ ,space:·
 
 " Interaction options
 au FocusLost * :wa
@@ -56,9 +49,7 @@ if isdirectory($HOME . '/.vim/undo') == 0
 endif
 set undodir=~/.vim/undo//
 
-" Vmux shortcuts
-nnoremap <leader>r :VmuxSendPrimary bottom-left up<enter>
-nnoremap <leader>gs :VmuxSendSecondary bottom-right git space status<enter>
+" Commands to load more complicated profiles
+command Dev source ~/.vim/dev.vimrc
+command Prose source ~/.vim/prose.vimrc
 
-" Ycm shortcuts
-nnoremap <leader>fi :YcmCompleter FixIt<enter>

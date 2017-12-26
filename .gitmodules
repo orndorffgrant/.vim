@@ -19,3 +19,6 @@
 [submodule "pack/go/start/vmux"]
 	path = pack/go/start/vmux
 	url = https://github.com/ivanbrennan/vmux.git
+[submodule "pack/go/opt/vim-numbertoggle"]
+	path = pack/go/opt/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
