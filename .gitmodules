@@ -1,23 +1,23 @@
 [submodule "pack/go/start/nerdtree"]
-	path = pack/go/start/nerdtree
+	path = pack/go/opt/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/go/start/vim-gitgutter"]
-	path = pack/go/start/vim-gitgutter
+	path = pack/go/opt/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "pack/go/start/youcompleteme"]
-	path = pack/go/start/youcompleteme
+	path = pack/go/opt/youcompleteme
 	url = https://github.com/valloric/youcompleteme
 [submodule "pack/go/start/nerdtree-git-plugin"]
-	path = pack/go/start/nerdtree-git-plugin
+	path = pack/go/opt/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "pack/go/start/vim-tmux-navigator"]
-	path = pack/go/start/vim-tmux-navigator
+	path = pack/go/opt/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "pack/go/start/typescript-vim"]
-	path = pack/go/start/typescript-vim
+	path = pack/go/opt/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "pack/go/start/vmux"]
-	path = pack/go/start/vmux
+	path = pack/go/opt/vmux
 	url = https://github.com/ivanbrennan/vmux.git
 [submodule "pack/go/opt/vim-numbertoggle"]
 	path = pack/go/opt/vim-numbertoggle
