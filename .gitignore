@@ -1,4 +1,5 @@
 backup/
+spell/*.spl
 swap/
 undo/
 viminfo
