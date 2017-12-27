@@ -19,5 +19,8 @@ packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
 
+" Number toggling
+nnoremap <leader>n :set relativenumber!<enter>
+
 " Ycm shortcuts
 nnoremap <leader>fi :YcmCompleter FixIt<enter>
