@@ -1,3 +1,8 @@
+" Create spl file
+if filereadable($HOME . '/.vim/spell/en.utf-8.add.spl') == 0
+  silent mkspell! ~/.vim/spell/en.utf-8.add
+endif
+
 " Theme
 set spelllang=en_us
 set spell
@@ -17,4 +22,5 @@ packadd nerdtree
 " Bindings
 nnoremap j gj
 nnoremap k gk
-nnoremap <leader>f 1z=
+nnoremap <leader>fi 1z=
+
