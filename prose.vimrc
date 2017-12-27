@@ -1,6 +1,7 @@
 " Theme
 set spelllang=en_us
 set spell
+syntax enable
 
 " Display options
 set number
@@ -13,4 +14,7 @@ source ~/.vim/tmux.vimrc
 " Plugins
 packadd nerdtree
 
+" Bindings
+nnoremap j gj
+nnoremap k gk
 nnoremap <leader>f 1z=
