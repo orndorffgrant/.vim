@@ -16,6 +16,9 @@ set softtabstop=2
 set expandtab
 set smarttab
 
+" More "normal" backspace
+set backspace=indent,eol,start
+
 " Search options
 set ignorecase
 set smartcase
