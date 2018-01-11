@@ -22,3 +22,6 @@
 [submodule "pack/go/opt/vim-numbertoggle"]
 	path = pack/go/opt/vim-numbertoggle
 	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
+[submodule "pack/go/opt/lightline.vim"]
+	path = pack/go/opt/lightline.vim
+	url = https://github.com/itchyny/lightline.vim

@@ -16,9 +16,6 @@ set softtabstop=2
 set expandtab
 set smarttab
 
-" More "normal" backspace
-set backspace=indent,eol,start
-
 " Search options
 set ignorecase
 set smartcase
@@ -26,6 +23,8 @@ set smartcase
 " Interaction options
 au FocusLost * :wa
 set mouse=a
+set ttymouse=xterm2 " pane resizing with mouse inside tmux
+set backspace=indent,eol,start " More 'normal' backspace
 
 " Gvim display options
 set guioptions-=T  " remove toolbar

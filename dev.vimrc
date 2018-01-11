@@ -12,6 +12,7 @@ set listchars=tab:▸\ ,space:·
 source ~/.vim/tmux.vimrc
 
 " Plugins
+packadd lightline
 packadd nerdtree
 packadd nerdtree-git-plugin
 packadd typescript-vim
