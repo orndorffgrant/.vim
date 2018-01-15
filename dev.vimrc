@@ -3,16 +3,17 @@ syntax enable
 
 " Display options
 set number relativenumber
-set showmode
-set showcmd
 set list
 set listchars=tab:▸\ ,space:·
+set laststatus=2
+set noshowmode
+set noshowcmd
 
 " Submodules
 source ~/.vim/tmux.vimrc
 
 " Plugins
-packadd lightline
+packadd lightline.vim
 packadd nerdtree
 packadd nerdtree-git-plugin
 packadd typescript-vim
