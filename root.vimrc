@@ -6,6 +6,7 @@ set modelines=0
 " Theme
 set background=dark
 colorscheme Tomorrow-Night
+syntax enable
 
 " Indentation
 filetype plugin indent on
@@ -25,6 +26,8 @@ au FocusLost * :wa
 set mouse=a
 set ttymouse=xterm2 " pane resizing with mouse inside tmux
 set backspace=indent,eol,start " More 'normal' backspace
+set splitbelow
+set splitright
 
 " Gvim display options
 set guioptions-=T  " remove toolbar
@@ -52,7 +55,7 @@ endif
 set undodir=~/.vim/undo//
 
 " Commands to load more complicated profiles
-command Dev source ~/.vim/dev.vimrc
-command Prose source ~/.vim/prose.vimrc
-command Tmux source ~/.vim/tmux.vimrc
+command! Dev source ~/.vim/dev.vimrc
+command! Prose source ~/.vim/prose.vimrc
+command! Tmux source ~/.vim/tmux.vimrc
 
