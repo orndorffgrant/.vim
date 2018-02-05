@@ -25,3 +25,6 @@
 [submodule "pack/go/opt/lightline.vim"]
 	path = pack/go/opt/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/go/opt/ctrlp.vim"]
+	path = pack/go/opt/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
