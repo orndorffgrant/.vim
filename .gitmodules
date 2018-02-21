@@ -28,3 +28,6 @@
 [submodule "pack/go/opt/ctrlp.vim"]
 	path = pack/go/opt/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/go/opt/vim-commentary"]
+	path = pack/go/opt/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git

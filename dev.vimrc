@@ -17,6 +17,7 @@ packadd lightline.vim
 packadd nerdtree
 packadd nerdtree-git-plugin
 packadd typescript-vim
+packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
