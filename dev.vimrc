@@ -16,7 +16,6 @@ source ~/.vim/tmux.vimrc
 packadd lightline.vim
 packadd nerdtree
 packadd nerdtree-git-plugin
-packadd typescript-vim
 packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
