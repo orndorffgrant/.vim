@@ -13,9 +13,11 @@ set noshowcmd
 source ~/.vim/tmux.vimrc
 
 " Plugins
+packadd ctrlp.vim
 packadd lightline.vim
 packadd nerdtree
 packadd nerdtree-git-plugin
+packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
