@@ -22,13 +22,15 @@ packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
 
-" Number toggling
-nnoremap <leader>n :set relativenumber!<enter>
-
-" Ycm shortcuts
-nnoremap <leader>fi :YcmCompleter FixIt<enter>
-
 " Wierd file type extensions
 augroup filetypedetect
   au BufRead,BufNewFile *.vue set filetype=html
 augroup END
+
+" Number toggling
+nnoremap <leader>n :set relativenumber!<enter>
+
+" CtrlP settings
+let g:ctrlp_user_command = ['.git', 'cd %s ; git ls-files . -co --exclude-standard', 'find %s -type f']
+let g:ctrlp_cmd = 'CtrlPMixed'
+
