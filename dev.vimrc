@@ -27,3 +27,8 @@ nnoremap <leader>n :set relativenumber!<enter>
 
 " Ycm shortcuts
 nnoremap <leader>fi :YcmCompleter FixIt<enter>
+
+" Wierd file type extensions
+augroup filetypedetect
+  au BufRead,BufNewFile *.vue set filetype=html
+augroup END
