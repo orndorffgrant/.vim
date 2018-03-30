@@ -16,7 +16,7 @@ source ~/.vim/tmux.vimrc
 packadd ctrlp.vim
 packadd lightline.vim
 packadd nerdtree
-source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd didn't work
+source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd nerdtree-git-plugindidn't work
 packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
