@@ -16,7 +16,7 @@ source ~/.vim/tmux.vimrc
 packadd ctrlp.vim
 packadd lightline.vim
 packadd nerdtree
-packadd nerdtree-git-plugin
+source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd didn't work
 packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
@@ -29,8 +29,9 @@ augroup END
 
 " Number toggling
 nnoremap <leader>n :set relativenumber!<enter>
-
 " CtrlP settings
 let g:ctrlp_user_command = ['.git', 'cd %s ; git ls-files . -co --exclude-standard', 'find %s -type f']
 let g:ctrlp_cmd = 'CtrlPMixed'
 
+" nerdtree-git-plugin settings
+set shell=sh
