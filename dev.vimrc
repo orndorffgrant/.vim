@@ -24,7 +24,8 @@ packadd youcompleteme
 
 " Wierd file type extensions
 augroup filetypedetect
-  au BufRead,BufNewFile *.vue set filetype=html
+  au BufRead,BufNewFile *.vue set filetype=javascript
+  au BufRead,BufNewFile *.vue set syntax=html
 augroup END
 
 " Number toggling
@@ -35,3 +36,6 @@ let g:ctrlp_cmd = 'CtrlPMixed'
 
 " nerdtree-git-plugin settings
 set shell=sh
+
+" nerdtree single click to open
+let g:NERDTreeMouseMode = 3
