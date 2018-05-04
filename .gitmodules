@@ -31,3 +31,9 @@
 [submodule "pack/go/opt/vim-commentary"]
 	path = pack/go/opt/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/go/start/vim-javascript"]
+	path = pack/go/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/go/start/vim-jsx"]
+	path = pack/go/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
