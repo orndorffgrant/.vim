@@ -1,3 +1,6 @@
+" Submodules
+source ~/.vim/tmux.vimrc
+
 " Theme
 syntax enable
 
@@ -9,9 +12,6 @@ set laststatus=2
 set noshowmode
 set noshowcmd
 
-" Submodules
-source ~/.vim/tmux.vimrc
-
 " Plugins
 packadd ctrlp.vim
 packadd lightline.vim
@@ -21,12 +21,6 @@ packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
-
-" Wierd file type extensions
-augroup filetypedetect
-  au BufRead,BufNewFile *.vue set filetype=javascript
-  au BufRead,BufNewFile *.vue set syntax=html
-augroup END
 
 " Number toggling
 nnoremap <leader>n :set relativenumber!<enter>
@@ -38,4 +32,4 @@ let g:ctrlp_cmd = 'CtrlPMixed'
 set shell=sh
 
 " nerdtree single click to open
-let g:NERDTreeMouseMode = 3
+let g:NERDTreeMouseMode = 2

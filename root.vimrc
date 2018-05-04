@@ -60,4 +60,5 @@ set undodir=~/.vim/undo//
 command! Dev source ~/.vim/dev.vimrc
 command! Prose source ~/.vim/prose.vimrc
 command! Tmux source ~/.vim/tmux.vimrc
+command! Vue source ~/.vim/vue.vimrc
 

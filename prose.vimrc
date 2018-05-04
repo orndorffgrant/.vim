@@ -1,3 +1,6 @@
+" Submodules
+source ~/.vim/tmux.vimrc
+
 " Create spl file
 if filereadable($HOME . '/.vim/spell/en.utf-8.add.spl') == 0
   silent mkspell! ~/.vim/spell/en.utf-8.add
@@ -12,9 +15,6 @@ syntax enable
 set number
 set showmode
 set showcmd
-
-" Submodules
-source ~/.vim/tmux.vimrc
 
 " Plugins
 packadd nerdtree
