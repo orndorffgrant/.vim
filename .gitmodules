@@ -35,7 +35,7 @@
 	path = pack/go/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "pack/go/start/vim-jsx"]
-	path = pack/go/start/vim-jsx
+	path = pack/go/opt/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
 [submodule "pack/go/opt/vim-vue"]
 	path = pack/go/opt/vim-vue

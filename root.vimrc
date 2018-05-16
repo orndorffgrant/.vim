@@ -57,8 +57,11 @@ endif
 set undodir=~/.vim/undo//
 
 " Commands to load more complicated profiles
-command! Dev source ~/.vim/dev.vimrc
-command! Prose source ~/.vim/prose.vimrc
 command! Tmux source ~/.vim/tmux.vimrc
+
+command! Prose source ~/.vim/prose.vimrc
+
+command! Dev source ~/.vim/dev.vimrc
 command! Vue source ~/.vim/vue.vimrc
+command! React source ~/.vim/react.vimrc
 
