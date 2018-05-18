@@ -37,3 +37,5 @@ set shell=sh
 
 " nerdtree single click to open
 let g:NERDTreeMouseMode = 2
+" nerdtree toggle shortcut
+nnoremap <leader>t :NERDTreeToggle<enter>
