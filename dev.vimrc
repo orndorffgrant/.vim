@@ -39,3 +39,6 @@ set shell=sh
 let g:NERDTreeMouseMode = 2
 " nerdtree toggle shortcut
 nnoremap <leader>t :NERDTreeToggle<enter>
+
+" highlight word occurrences on double click
+nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\>'<cr>:set hls<cr>
