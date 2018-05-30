@@ -64,4 +64,5 @@ command! Prose source ~/.vim/prose.vimrc
 command! Dev source ~/.vim/dev.vimrc
 command! Vue source ~/.vim/vue.vimrc
 command! React source ~/.vim/react.vimrc
+command! Golang source ~/.vim/go.vimrc
 
