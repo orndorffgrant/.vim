@@ -25,8 +25,8 @@ set smartcase
 au FocusLost * :wa
 set mouse=a
 set ttymouse=xterm2 " pane resizing with mouse inside tmux
-noremap <ScrollWheelUp> 2<C-Y>
-noremap <ScrollWheelDown> 2<C-E>
+" noremap <ScrollWheelUp> 2<C-Y>
+" noremap <ScrollWheelDown> 2<C-E>
 set backspace=indent,eol,start " More 'normal' backspace
 set splitbelow
 set splitright

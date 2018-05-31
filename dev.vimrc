@@ -13,7 +13,8 @@ set noshowmode
 set noshowcmd
 
 " Plugins
-packadd ctrlp.vim
+source ~/.vim/pack/go/extra/fzf.vim
+packadd fzf.vim
 packadd lightline.vim
 packadd nerdtree
 source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd nerdtree-git-plugindidn't work
@@ -25,12 +26,10 @@ packadd youcompleteme
 " Number toggling
 nnoremap <leader>n :set relativenumber!<enter>
 
-" CtrlP settings
-let g:ctrlp_user_command = ['.git', 'cd %s ; git ls-files . -co --exclude-standard', 'find %s -type f']
-let g:ctrlp_cmd = 'CtrlPMixed'
-" CtrlP splitopen
-nnoremap <leader>v :vsp<enter>:CtrlPMixed<enter>
-nnoremap <leader>h :sp<enter>:CtrlPMixed<enter>
+" fzf shortcuts and stuff
+set rtp+=/usr/local/opt/fzf
+nmap ;; :Buffers<enter>
+nmap ;f :Files<enter>
 
 " nerdtree-git-plugin settings
 set shell=sh

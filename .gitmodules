@@ -25,9 +25,6 @@
 [submodule "pack/go/opt/lightline.vim"]
 	path = pack/go/opt/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/go/opt/ctrlp.vim"]
-	path = pack/go/opt/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "pack/go/opt/vim-commentary"]
 	path = pack/go/opt/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
@@ -43,3 +40,9 @@
 [submodule "pack/go/opt/vim-go"]
 	path = pack/go/opt/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "pack/go/start/ZoomWin"]
+	path = pack/go/start/ZoomWin
+	url = https://github.com/regedarek/ZoomWin
+[submodule "pack/go/opt/fzf.vim"]
+	path = pack/go/opt/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
