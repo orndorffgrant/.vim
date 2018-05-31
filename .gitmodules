@@ -46,3 +46,9 @@
 [submodule "pack/go/opt/fzf.vim"]
 	path = pack/go/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/go/start/vim-eunuch"]
+	path = pack/go/start/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule "pack/go/opt/closetag.vim"]
+	path = pack/go/opt/closetag.vim
+	url = https://github.com/docunext/closetag.vim

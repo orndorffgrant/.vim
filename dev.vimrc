@@ -7,15 +7,21 @@ syntax enable
 " Display options
 set number relativenumber
 set list
-set listchars=tab:▸\ ,space:·,trail:█
+set listchars=tab:▸\ ,trail:█
 set laststatus=2
 set noshowmode
 set noshowcmd
+
+" gitgutter symbols
+let g:gitgutter_sign_added = '·'
+let g:gitgutter_sign_modified = '·'
+let g:gitgutter_sign_modified_removed = '·̲'
 
 " Plugins
 source ~/.vim/pack/go/extra/fzf.vim
 packadd fzf.vim
 packadd lightline.vim
+packadd closetag.vim
 packadd nerdtree
 source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd nerdtree-git-plugindidn't work
 packadd vim-commentary

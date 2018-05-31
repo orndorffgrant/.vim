@@ -18,6 +18,7 @@ set showcmd
 
 " Plugins
 packadd nerdtree
+packadd closetag.vim
 
 " Bindings
 nnoremap j gj
