@@ -56,7 +56,7 @@ let g:fzf_colors = {
 " nerdtree-git-plugin settings
 set shell=sh
 
-" nerdtree single click to open
+" nerdtree single click to expand folders
 let g:NERDTreeMouseMode = 2
 " nerdtree toggle shortcut
 nnoremap <leader>t :NERDTreeToggle<enter>
@@ -67,4 +67,20 @@ nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\
 " lightline
 let g:lightline = {
   \ 'colorscheme': 'solarized',
+  \ 'active': {
+  \   'left': [ [ 'mode', 'paste' ],
+  \             [ 'readonly', 'filename', 'modified' ] ],
+  \   'right': [ [ 'lineinfo' ],
+  \              [ 'percent' ],
+  \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
+  \ },
+  \ 'inactive': {
+  \   'left': [ [ 'filename', 'modified' ] ],
+  \   'right': [ [ 'lineinfo' ],
+  \              [ 'percent' ] ]
+  \ },
+  \ 'tabline': {
+  \   'left': [ [ 'tabs' ] ],
+  \   'right': [ [ 'close' ] ]
+  \ }
   \ }
