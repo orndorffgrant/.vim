@@ -5,7 +5,7 @@ set modelines=0
 
 " Theme
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme solarized
 syntax enable
 
 " Indentation

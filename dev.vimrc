@@ -36,6 +36,22 @@ nnoremap <leader>n :set relativenumber!<enter>
 set rtp+=/usr/local/opt/fzf
 nmap ;; :Buffers<enter>
 nmap ;f :Files<enter>
+" Customize fzf colors to match your color scheme
+let g:fzf_colors = {
+  \ 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment']
+  \ }
 
 " nerdtree-git-plugin settings
 set shell=sh
@@ -50,5 +66,5 @@ nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\
 
 " lightline
 let g:lightline = {
-  \ 'colorscheme': 'Tomorrow_Night',
+  \ 'colorscheme': 'solarized',
   \ }
