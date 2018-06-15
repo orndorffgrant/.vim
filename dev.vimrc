@@ -22,8 +22,6 @@ source ~/.vim/pack/go/extra/fzf.vim
 packadd fzf.vim
 packadd lightline.vim
 packadd closetag.vim
-packadd nerdtree
-source ~/.vim/pack/go/opt/nerdtree-git-plugin/nerdtree_plugin/git_status.vim " packadd nerdtree-git-plugindidn't work
 packadd vim-commentary
 packadd vim-gitgutter
 packadd vim-numbertoggle
@@ -53,13 +51,6 @@ let g:fzf_colors = {
   \ 'header':  ['fg', 'Comment']
   \ }
 
-" nerdtree-git-plugin settings
-set shell=sh
-
-" nerdtree single click to expand folders
-let g:NERDTreeMouseMode = 2
-" nerdtree toggle shortcut
-nnoremap <leader>t :NERDTreeToggle<enter>
 
 " highlight word occurrences on double click
 nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\>'<cr>:set hls<cr>

@@ -1,5 +1,5 @@
 [submodule "pack/go/start/nerdtree"]
-	path = pack/go/opt/nerdtree
+	path = pack/go/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/go/start/vim-gitgutter"]
 	path = pack/go/opt/vim-gitgutter
@@ -8,7 +8,7 @@
 	path = pack/go/opt/youcompleteme
 	url = https://github.com/valloric/youcompleteme
 [submodule "pack/go/start/nerdtree-git-plugin"]
-	path = pack/go/opt/nerdtree-git-plugin
+	path = pack/go/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "pack/go/start/vim-tmux-navigator"]
 	path = pack/go/opt/vim-tmux-navigator
@@ -52,3 +52,9 @@
 [submodule "pack/go/opt/closetag.vim"]
 	path = pack/go/opt/closetag.vim
 	url = https://github.com/docunext/closetag.vim
+[submodule "pack/go/opt/vim-devicons"]
+	path = pack/go/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/go/start/vim-nerdtree-syntax-highlight"]
+	path = pack/go/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
