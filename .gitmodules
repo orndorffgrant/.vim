@@ -55,6 +55,3 @@
 [submodule "pack/go/opt/vim-devicons"]
 	path = pack/go/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
-[submodule "pack/go/start/vim-nerdtree-syntax-highlight"]
-	path = pack/go/start/vim-nerdtree-syntax-highlight
-	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
