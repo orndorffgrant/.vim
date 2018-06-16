@@ -1,11 +1,7 @@
 " Submodules
 source ~/.vim/tmux.vimrc
 
-" Theme
-syntax enable
-
 " Display options
-set number relativenumber
 set list
 set listchars=tab:▸\ ,trail:█
 set laststatus=2
@@ -17,17 +13,8 @@ let g:gitgutter_sign_added = '·'
 let g:gitgutter_sign_modified = '·'
 let g:gitgutter_sign_modified_removed = '·̲'
 
-" Plugins
-source ~/.vim/pack/go/extra/fzf.vim
-packadd fzf.vim
-packadd lightline.vim
-packadd closetag.vim
-packadd vim-commentary
-packadd vim-gitgutter
-packadd vim-numbertoggle
-packadd youcompleteme
-
 " Number toggling
+set number relativenumber
 nnoremap <leader>n :set relativenumber!<enter>
 
 " fzf shortcuts and stuff
@@ -75,3 +62,14 @@ let g:lightline = {
   \   'right': [ [ 'close' ] ]
   \ }
   \ }
+
+" Plugins
+source ~/.vim/pack/go/extra/fzf.vim
+packadd fzf.vim
+packadd lightline.vim
+packadd closetag.vim
+packadd vim-commentary
+packadd vim-fugitive
+packadd vim-gitgutter
+packadd vim-numbertoggle
+packadd youcompleteme

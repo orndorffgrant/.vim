@@ -1,15 +1,9 @@
-[submodule "pack/go/start/nerdtree"]
-	path = pack/go/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/go/start/vim-gitgutter"]
 	path = pack/go/opt/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "pack/go/start/youcompleteme"]
 	path = pack/go/opt/youcompleteme
 	url = https://github.com/valloric/youcompleteme
-[submodule "pack/go/start/nerdtree-git-plugin"]
-	path = pack/go/start/nerdtree-git-plugin
-	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "pack/go/start/vim-tmux-navigator"]
 	path = pack/go/opt/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
@@ -52,6 +46,12 @@
 [submodule "pack/go/opt/closetag.vim"]
 	path = pack/go/opt/closetag.vim
 	url = https://github.com/docunext/closetag.vim
-[submodule "pack/go/opt/vim-devicons"]
-	path = pack/go/start/vim-devicons
-	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/go/start/unite.vim"]
+	path = pack/go/start/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "pack/go/start/vimfiler.vim"]
+	path = pack/go/start/vimfiler.vim
+	url = https://github.com/Shougo/vimfiler.vim.git
+[submodule "pack/go/opt/vim-fugitive"]
+	path = pack/go/opt/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

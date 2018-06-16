@@ -4,3 +4,4 @@ swap/
 undo/
 viminfo
 .netrwhist
+*.tmp*
