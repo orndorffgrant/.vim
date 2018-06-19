@@ -59,8 +59,9 @@ if isdirectory($HOME . '/.vim/undo') == 0
 endif
 set undodir=~/.vim/undo//
 
+let g:netrw_liststyle=3
 " filetree toggle shortcut
-nnoremap ;t -
+map ;t -
 
 
 source ~/.vim/tmux.vimrc
