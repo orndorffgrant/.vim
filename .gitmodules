@@ -46,12 +46,9 @@
 [submodule "pack/go/opt/closetag.vim"]
 	path = pack/go/opt/closetag.vim
 	url = https://github.com/docunext/closetag.vim
-[submodule "pack/go/start/unite.vim"]
-	path = pack/go/start/unite.vim
-	url = https://github.com/Shougo/unite.vim.git
-[submodule "pack/go/start/vimfiler.vim"]
-	path = pack/go/start/vimfiler.vim
-	url = https://github.com/Shougo/vimfiler.vim.git
 [submodule "pack/go/opt/vim-fugitive"]
 	path = pack/go/opt/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/go/start/vim-vinegar"]
+	path = pack/go/start/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar.git
