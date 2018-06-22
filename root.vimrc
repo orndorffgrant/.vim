@@ -63,6 +63,8 @@ set undodir=~/.vim/undo//
 let g:netrw_liststyle=3
 " filetree toggle shortcut
 map ;t -
+map ;vt :vsp<enter>-
+map ;ht :sp<enter>-
 
 source ~/.vim/tmux.vimrc
 
