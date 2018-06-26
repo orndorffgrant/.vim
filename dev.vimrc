@@ -52,7 +52,7 @@ let g:lightline = {
   \ 'colorscheme': 'solarized',
   \ 'active': {
   \   'left': [ [ 'mode', 'paste' ],
-  \             [ 'readonly', 'filename', 'modified' ] ],
+  \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ],
   \   'right': [ [ 'lineinfo' ],
   \              [ 'percent' ],
   \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
@@ -65,16 +65,19 @@ let g:lightline = {
   \ 'tabline': {
   \   'left': [ [ 'tabs' ] ],
   \   'right': [ [ 'close' ] ]
-  \ }
+  \ },
+  \ 'component_function': {
+  \   'gitbranch': 'fugitive#head'
+  \ },
   \ }
 
 " Plugins
 source ~/.vim/pack/go/extra/fzf.vim
 packadd fzf.vim
-packadd lightline.vim
 packadd closetag.vim
 packadd vim-commentary
 packadd vim-fugitive
+packadd lightline.vim
 packadd vim-gitgutter
 packadd vim-numbertoggle
 packadd youcompleteme
