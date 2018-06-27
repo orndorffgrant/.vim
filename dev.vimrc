@@ -20,7 +20,12 @@ nnoremap <leader>n :set relativenumber!<enter>
 " fzf shortcuts and stuff
 set rtp+=/usr/local/opt/fzf
 nmap ;; :Buffers<enter>
+nmap ;v; :vsp<enter>:Buffers<enter>
+nmap ;h; :sp<enter>:Buffers<enter>
 nmap ;f :Files<enter>
+nmap ;vf :vsp<enter>:Files<enter>
+nmap ;hf :sp<enter>:Files<enter>
+
 " Customize fzf colors to match your color scheme
 let g:fzf_colors = {
   \ 'fg':      ['fg', 'Normal'],
