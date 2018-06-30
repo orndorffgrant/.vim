@@ -44,9 +44,6 @@ let g:fzf_colors = {
   \ }
 
 
-" highlight word occurrences on double click
-nnoremap <silent> <2-LeftMouse> :let @/='\V\<'.escape(expand('<cword>'), '\').'\>'<cr>:set hls<cr>
-
 " lightline
 let g:lightline = {
   \ 'colorscheme': 'solarized',
